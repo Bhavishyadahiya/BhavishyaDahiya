@@ -1,207 +1,142 @@
-{
-  "name": "Bhavishya Dahiya",
-  "github": "Bhavishyadahiya",
-  "profile": {
-    "role": "Student / Developer",
-    "primary_interests": [
-      "Linux",
-      "Docker",
-      "Networking",
-      "Automation",
-      "Self-hosting",
-      "Developer tooling",
-      "IP and proxy tooling",
-      "Bandwidth-node infrastructure"
-    ],
-    "development_style": [
-      "Practical",
-      "Automation-first",
-      "CLI-focused",
-      "Infrastructure-oriented",
-      "Prefers lightweight solutions"
-    ]
-  },
+# 👋 Hey, I'm Bhavishya Dahiya
 
-  "technical_stack": {
-    "languages": [
-      "Bash",
-      "Shell scripting",
-      "HTML"
-    ],
-    "platforms": [
-      "Linux",
-      "Docker",
-      "Arch Linux",
-      "Debian"
-    ],
-    "tools": [
-      "Docker",
-      "tun2proxy",
-      "curl",
-      "Git",
-      "GitHub",
-      "systemd"
-    ],
-    "networking": [
-      "HTTP",
-      "HTTPS",
-      "SOCKS4",
-      "SOCKS5",
-      "Proxy routing",
-      "DNS",
-      "IP intelligence",
-      "Network namespaces"
-    ],
-    "apis": [
-      "ip-api.com",
-      "RapidAPI",
-      "Ping0"
-    ]
-  },
+### 🧑‍💻 Student • Linux Nerd • Automation Enthusiast
 
-  "projects": [
-    {
-      "name": "EAincome",
-      "repo": "Bhavishyadahiya/EAincome",
-      "type": "Docker / automation",
-      "description": "EarnApp-focused Docker node deployment and management.",
-      "technologies": [
-        "Bash",
-        "Docker",
-        "tun2proxy",
-        "Linux",
-        "Networking"
-      ],
-      "features": [
-        "Multi-node deployment",
-        "Per-proxy node routing",
-        "Proxy validation",
-        "DNS routing",
-        "Docker image building",
-        "Node persistence",
-        "Container management",
-        "TLS/certificate handling"
-      ]
-    },
+I like building things that **automate repetitive work, run inside containers, and occasionally make me question why I started the project.**
 
-    {
-      "name": "IP-lookup",
-      "repo": "Bhavishyadahiya/IP-lookup",
-      "type": "CLI networking tool",
-      "description": "Terminal-based proxy/IP intelligence checker.",
-      "technologies": [
-        "Bash",
-        "curl",
-        "ip-api.com",
-        "RapidAPI"
-      ],
-      "features": [
-        "IPv4 extraction",
-        "Proxy format parsing",
-        "Duplicate removal",
-        "IP geolocation",
-        "ISP lookup",
-        "ASN lookup",
-        "Risk scoring",
-        "Datacenter detection",
-        "Bogon detection",
-        "Crawler detection",
-        "Terminal UI"
-      ]
-    },
+I'm mainly interested in **Linux, Docker, networking, automation, self-hosting, and experimenting with infrastructure.**
 
-    {
-      "name": "earnapp-docker",
-      "repo": "Bhavishyadahiya/earnapp-docker",
-      "type": "Docker image",
-      "description": "Unofficial Dockerized EarnApp deployment.",
-      "technologies": [
-        "Docker",
-        "Arch Linux",
-        "Bash"
-      ],
-      "features": [
-        "Containerized EarnApp",
-        "Persistent /etc/earnapp configuration",
-        "Automatic installation",
-        "Node registration"
-      ]
-    },
+---
 
-    {
-      "name": "register",
-      "repo": "Bhavishyadahiya/register",
-      "type": "Domain registration project",
-      "description": "Repository related to is-a.dev domain registration.",
-      "technologies": [
-        "Git",
-        "GitHub",
-        "JSON"
-      ]
-    },
+## ⚡ What I Do
 
-    {
-      "name": "mainwebshit",
-      "repo": "Bhavishyadahiya/mainwebshit",
-      "type": "Web",
-      "description": "Minimal personal web project."
-    }
-  ],
+```text
+🐧 Linux              → Breaking things & fixing them
+🐳 Docker             → Containerizing everything possible
+🌐 Networking         → Proxies, DNS, IPs & tunnels
+⚙️ Automation         → If it can be scripted, I'll script it
+🔧 Infrastructure     → Self-hosted experiments
+💻 CLI Tools          → Because terminals are cool
+```
 
-  "engineering_preferences": {
-    "preferred_interface": "CLI",
-    "preferred_automation": "Bash scripts and Docker",
-    "preferred_deployment": "Containers",
-    "preferred_operating_system": "Linux",
-    "preferred_networking": "Explicit proxy and DNS control",
-    "preferred_configuration": "Simple editable config files",
-    "logging": "Useful but controlled",
-    "resource_usage": "Prefer lightweight implementations"
-  },
+---
 
-  "common_tasks": [
-    "Automating Docker deployments",
-    "Managing multiple networked containers",
-    "Proxy validation and routing",
-    "IP intelligence and classification",
-    "Linux troubleshooting",
-    "Network debugging",
-    "Self-hosted services",
-    "CLI tooling",
-    "Infrastructure experimentation"
-  ],
+## 🚀 Some Things I've Built
 
-  "coding_guidelines": {
-    "shell": [
-      "Prefer Bash for automation",
-      "Validate configuration before starting containers",
-      "Fail clearly on invalid input",
-      "Avoid unnecessary dependencies",
-      "Use configurable variables",
-      "Keep secrets out of source code"
-    ],
-    "docker": [
-      "Prefer reproducible builds",
-      "Pin important images where practical",
-      "Persist node/application state",
-      "Keep containers independently manageable"
-    ],
-    "networking": [
-      "Validate proxy syntax",
-      "Make DNS behavior explicit",
-      "Avoid accidental host DNS leakage",
-      "Keep one logical network identity per node"
-    ]
-  },
+### 🟢 [EAincome](https://github.com/Bhavishyadahiya/EAincome)
 
-  "interaction_preferences": {
-    "answers": "Practical and direct",
-    "code": "Complete working files when requested",
-    "explanations": "Focus on commands and implementation",
-    "avoid": [
-      "Unnecessary abstractions",
-      "Overly complicated solutions",
-      "Heavy software when a lightweight alternative exists"
-    ]
-  }
-}
+An **EarnApp-focused Docker automation project**.
+
+- 🐳 Docker-based deployment
+- 🌐 One node per proxy
+- 🔀 `HTTP / HTTPS / SOCKS4 / SOCKS5` proxy support
+- 🧠 tun2proxy networking
+- 🛡️ DNS routing
+- 🔐 TLS/certificate handling
+- ♻️ Persistent node identities
+- 📦 Local Docker image builds
+
+> Basically: automate the boring parts of running multiple nodes.
+
+---
+
+### 🔎 [IP-lookup](https://github.com/Bhavishyadahiya/IP-lookup)
+
+A Bash-based **IP / proxy intelligence TUI**.
+
+It can take proxy lists in different formats, extract IPs, and display:
+
+```text
+IP
+Country
+City
+ISP
+ASN
+Risk
+Type
+Abuser
+Bogon
+Crawler
+```
+
+Built with **pure Bash + curl**, with no `jq`, `dialog`, or ncurses required.
+
+---
+
+### 🐳 [earnapp-docker](https://github.com/Bhavishyadahiya/earnapp-docker)
+
+An unofficial Docker implementation for running EarnApp.
+
+```bash
+docker run -d \
+  --name earnapp \
+  -e EARNAPP_UUID=<your_uuid> \
+  ghcr.io/bhavishyadahiya/earnapp-docker:latest
+```
+
+---
+
+## 🛠️ Tech I Mess With
+
+### Languages
+
+![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+### Infrastructure & Tools
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+### Networking
+
+```text
+HTTP       HTTPS
+SOCKS4     SOCKS5
+DNS        IP Intelligence
+Proxies    Network Tunnels
+```
+
+---
+
+## 🧪 Currently Experimenting With
+
+- 🐧 Linux systems & servers
+- 🐳 Docker automation
+- 🌐 Networking & proxy infrastructure
+- 🤖 Automation
+- 🔧 Self-hosted services
+- 📡 Network monitoring
+- 💻 Random hardware/software experiments
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Bhavishyadahiya&show_icons=true&theme=dark&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Bhavishyadahiya&theme=dark&hide_border=true" />
+</p>
+
+---
+
+## 🧠 Philosophy
+
+> **If I have to do it twice, I'll probably automate it.**
+
+> **If it works, don't touch it.**  
+> *Unless I want to know why it works.*
+
+---
+
+## 📫 Find Me
+
+🌐 GitHub — [@Bhavishyadahiya](https://github.com/Bhavishyadahiya)
+
+---
+
+<p align="center">
+  <i>Still learning. Still building. Still breaking things.</i>
+</p>
